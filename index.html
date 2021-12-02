@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Red Rocks retreat</title>
+  <meta name="author" content="Saftescu Ivana">
+  <meta name="description" content="pensiunea Red Rocks retreat">
+  <meta name="keywords" content="pensiune,spa,retreat,getaway,Râpa Roșie">
+  
+  <style> 
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cinzel&family=Homemade+Apple&family=Lobster+Two:ital@1&display=swap');
+
+body{ background:#FFFAF0;
+      margin: 0px;
+}
+
+.fundal{
+      background-image: url("background/fundal4.jpeg");
+      background-size: cover;
+      background-position:top;
+      background-repeat: no-repeat;
+      height: 700px;
+      margin: 0px;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+ 
+.fundal h2{
+    margin:0px;
+    font-family: 'Cinzel', serif;
+    color: black;
+
+}
+ ul{
+  display:inline;
+  list-style-type:none;
+  margin-left: 35%;
+
+}
+
+li{
+    display: inline;
+    font-family:'Cinzel', serif ;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+    width: 50%;
+
+}
+
+
+nav a{
+    display: inline;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover{font-weight: bolder;}
+
+.subtitlu{
+    font-family:'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+
+.fundal h6{
+    margin-top: 15%;
+}
+
+.button{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    border: 2px solid rgb(30, 41, 30);
+    text-decoration: none;
+    margin-left: 42%;
+    margin-top: 60px;
+    background-color: rgba(30, 48, 30, 0.349);
+}
+
+.button:hover {
+      font-weight: bold;
+    }
+
+* {
+  box-sizing: border-box;
+}
+
+.container::after {
+  content: "";
+  clear:both;
+  display: table;
+}
+
+.pe-jumate{
+    width: 50%;
+    float: left;
+}
+
+.poza-about-us{
+    width: 75%;
+    margin-top:115px;
+    margin-left:70px;
+    border-radius: 50%;
+    
+}
+
+.pe-jumate h3{
+    color: rgba(71, 73, 102, 0.534);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: calc((1.5 - 1) * 1.2vw + 1rem);
+    margin-top:30px;
+    margin-right: 55px;
+}
+
+.pe-jumate h2{
+  color: rgba(71, 73, 102, 0.534);
+  font-weight: lighter;
+  text-align: center;
+}
+.pe-jumate p{
+  color: rgba(62, 63, 82, 0.836);
+  margin-right: 50px;
+  font-size:large;
+  padding: 50px;
+}
+
+hr{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.camere p{
+    border: 0px;
+}
+
+.pe-treime{
+    width: 33%;
+    float: left;
+}
+
+.camere section{
+   border-radius: 25px;
+   border:none;
+   font-size: large;
+   padding: 0px;
+   margin-left:155px;
+   background-color: rgb(243, 234, 234);
+
+}
+.camere img{
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 8px;
+    
+}
+.camere h3{
+    text-align: center;
+    color: rgba(71, 73, 102, 0.534);
+    font-size: 70px;
+    font-weight: bold;
+    font-style: calc((1.5 - 1) * 1.2vw + 1rem);
+    margin-top:30px;
+    margin-right: 55px;
+}
+
+.camere p{
+    color: rgb(3, 3, 3);
+    font-style: calc((1.5 - 1) * 1.2vw + 1rem);
+    text-align: center;
+
+}
+.spa p{
+    background-color: #FFFAF0;
+    border-color: black;
+}
+.poza-spa{
+    margin-left:70px;
+    border-radius: 50%;
+  
+}
+
+.poza-meniu{
+    width: 750px;
+    border-radius: 50%;
+}
+.meniu p{
+    background-color: #FFFAF0;
+    border-radius: 25%;
+    margin-right:50px;
+    
+}
+
+.contact h3{
+    text-align: left;
+    color: rgba(71, 73, 102, 0.534);
+    font-size: 70px;
+    font-weight: bold;
+    font-style: calc((1.5 - 1) * 1.2vw + 1rem);
+    margin-top:30px;
+    margin-right: 55px;
+    margin-left: 40px;
+
+}
+.contact p{
+  border-left: 5px solid  rgba(71, 73, 102, 0.534);
+  background-color: lightgrey;
+  margin-left:40px;
+  margin-right: 40px;
+  font-size: large;
+  padding: 15px;
+}
+
+.exit-page h2{
+  font-family: calc((1.5 - 1) * 1.2vw + 1rem);
+  text-align: center;
+  font-size: 90px;
+  font-weight: lighter;
+  color: rgb(8, 8, 8);
+}
+
+  </style>
+
+</head>
+<body>
+    <div class="fundal">
+        <nav>
+        <h2>RRr</h2>
+          <ul>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CAMERE</a></li>
+            <li><a href="#">SPA</a></li>
+            <li><a href="#">MENIU</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+      </nav>
+      <h1>Red Rocks retreat</h1>
+      <h4 class="subtitlu">Feel the need for a getaway?</h4>
+      <h6><a class="button" href="#">Rezervă acum</a></h6>
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <section class="pe-jumate">
+          <img class="poza-about-us" src="background/about us.jpg">
+        </section>
+
+        <section class="pe-jumate">
+        <h3>About us</h3>
+        <h2>an invinting escape</h2>
+        <p> Red Rocks retreat, este locul perfect pentru cei care caută o cazare Premium și un peisaj de
+          poveste. Te vei îndrăgosti de nunțele de roșu pe care împrejurimile rezervației Râpa Roșie le are de oferit.
+          Pasionații de fotografie vor avea de câștigat cu locația ce amplasează pensiunea într-un loc de poveste.
+          Camerele și servicile noastre sunt pregătite să va ofere un weekend getaway la înălțime. </p>
+        </section>
+
+      </div>
+
+      <hr>
+
+      <div class="container camere">
+        <h3>Camere</h3>
+
+        <section class="pe-treime">
+          <img class="poza-camere1" src="background/bedroom6.jpg">
+          <p>Cameră cu priveliște/55 euro/</p>
+        </section>
+        <section class="pe-treime">
+            <img class="poza-camera2" src="background/bedroom13.jpg">
+            <p>Cameră simplă/45 euro/</p>
+          </section>
+
+
+      </div>
+
+      <hr>
+
+      <div class="conteiner spa">
+
+      <section class="pe-jumate">
+        <img class="poza-spa" src="background/sauna1.jpg">
+            <h3>Meniu</h3>
+            <p>  Micul dejun varianză în funcție de diata fiecariua, 
+                astfel oferim și variante
+                vegane/vegetarien. Prețurile micului dejun variază între 20-50 de 
+                lei, având preparate fixe. Restaurantul este
+                deschis zilnic între orele 8:00 - 22:00. Cei cazați pot beneficia 
+                de roomservice. </p>
+      </section>
+
+      <section class="pe-jumate">
+      <h3>Spa</h3>
+      <p> În incinta spaului se regăsesc
+        facilități precum: saună,jacuzzi,
+        piscina interioară și
+        posibilitatea de a vă programa
+        la un masaj.Spaul intră in
+        pachetul închirierii
+        camerei, cu acces nelimitat pe
+        întreaga durată a cazrăii
+        voastre. </p>
+      </section>
+
+    </div>
+
+
+     <div class="container meniu">
+
+        <section class="pe-jumate">
+          <img class="poza-meniu" src="background/meniu.jpg">
+        </section>
+
+        <section class="pe-jumate">
+
+      </div>
+
+      <hr>
+
+      <div class="exit-page">
+
+       <section class="exit">
+       <h2>We can't wait to see you</h2>
+       <h6><a class="button" href="#">Rezervă acum</a></h6>
+      </section>
+      </div>
+
+      <hr>
+
+      <div class="container contact">
+
+        <h3>Contact</h3>
+        <p>Ne puteți găsi în locația curentă, Strada Dunării, Județul 
+            Sebeș,la 4 km de frumoasa rezervatie <a href="https://avealba.ro/de-vizitat-in-alba/rapa-rosie/" target="_blank">Râpa Roșie</a> </p>
+
+      </div>
+            <footer>
+                <p>Copyright &copy; Saftescu Ivana</p>
+              </footer>
+            </body>
+          </html>
+
+      
+
+      
